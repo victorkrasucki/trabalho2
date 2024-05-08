@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #241f1c;
+}
+nav{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    height: 20vh;
+    gap: 100px;
+}
+.nav-links{
+    margin-top: 24%;
+    text-decoration: none;
+    color: white;
+    font-size: 4vh;
+}
+.nav-links:hover{
+    margin-top: 24%;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: 4vh;
+}
+.bordas
+{
+    border: 1px solid #937047;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin-top: 10vh;
+    height: 60vh;
+
+}
+
+.central-bolo{
+    display: grid;  
+    grid-template-columns: 60%;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    text-align: center;
+    text-decoration: none;
+    font-size: 5vh;
+    color:#e7dac7;
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
+form
+{
+    margin-top: 10px;
+    height: 10%;
+    width: 20%;
+}
+#central{
+    display: flex;
+    justify-content: center;
+}
+label
+{
+    color: aliceblue;
+    margin-right: 2vh;
+}
+fieldset{
+    border: 0;
+    margin-top: 5px;
+}
+.campo{
+    margin-top: 10px;
+    
+    margin-left: 7vh;
+}
+.botao
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    font-size: 3vh;
+    border: 0; 
+}
+.float{
+    float: var(margin-bottom);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    color: black;
+    font-size: 4vh;
+    border: 0cap;
+}
